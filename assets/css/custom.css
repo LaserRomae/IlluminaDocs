@@ -3,6 +3,18 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+a {
+  color: #43c4c6;
+}
 
 .sidebar-dark {
   background: #001d31;
@@ -18,4 +30,10 @@ body {
 #content {
   background: #16263d;
   color: #fff;
+}
+
+@media screen and (min-width: 64em) {
+  .page-header {
+    padding: 3.2rem 6rem;
+  }
 }

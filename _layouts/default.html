@@ -26,7 +26,7 @@
   <body>
     <div class="row">
       <div class="d-flex flex-column flex-shrink-0 py-3 text-white sidebar-dark col-md-2 px-0">
-        <a href="/" class="text-white text-decoration-none p-4">
+        <a href="/" class="text-white text-decoration-none p-5 py-3">
           <img class="img-fluid" src="/IlluminaDocs/assets/img/illumina-logo.png" />
         </a>
         <hr>
@@ -65,6 +65,9 @@
       </div>
       <div class="col-md-10 p-0">
         <header class="page-header" role="banner">
+        </header>
+
+        <main id="content" role="main">
           <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
           <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
           {% if site.github.is_project_page %}
@@ -74,9 +77,6 @@
             <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
             <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
           {% endif %}
-        </header>
-
-        <main id="content" role="main">
           <div class="main-content">
             {{ content }}
             <footer class="site-footer">
