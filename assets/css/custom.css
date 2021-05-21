@@ -6,4 +6,9 @@
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1f5860;
+  border-radius: 0;
+}
+
+#content {
+  background: #16263d;
 }
