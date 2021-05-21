@@ -29,7 +29,11 @@ a {
 
 #content {
   background: #16263d;
-  color: #fff;
+  color: #93b4cc;
+}
+
+.main-content {
+  max-width: 90rem;
 }
 
 @media screen and (min-width: 64em) {
